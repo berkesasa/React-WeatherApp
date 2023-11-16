@@ -41,7 +41,7 @@ function App() {
               </svg>
             </button>
           </form>
-          {cityData.cod === "200"  && (
+          {cityData.cod == "200"  && (
           <div className={`flex flex-col justify-center w-full weatherData transition-all duration-1000 delay-500 overflow-hidden ${cityData.length === 0 ? "h-0" : "h-full"}`}>
             <div className="text-center flex flex-col justify-center">
               <img src={`/${cityData.weather[0].main}.png`} className="weatherImage max-h-40 object-contain" draggable="false" alt='' />
@@ -71,7 +71,7 @@ function App() {
               </div>
             </div>
           </div> )}
-          {cityData.cod !== "200" && (
+          {cityData.cod != "200" && (
           <div className="weatherError">
             <img className='object-contain w-full h-auto' src="./error.png" alt="" />
           </div>)}
