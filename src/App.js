@@ -29,7 +29,7 @@ function App() {
             <input
               className="search-input w-full bg-transparent placeholder:text-white px-10 border border-gray-500 rounded-lg py-2 focus:outline-none ring-0"
               type="text"
-              placeholder="ara bakalım"
+              placeholder="Location"
               value={city}
               onChange={(e) => setCity(e.target.value)}
             />
