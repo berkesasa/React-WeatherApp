@@ -44,7 +44,7 @@ function App() {
           {cityData.cod == "200"  && (
           <div className={`flex flex-col justify-center w-full weatherData transition-all duration-1000 delay-500 overflow-hidden ${cityData.length === 0 ? "h-0" : "h-full"}`}>
             <div className="text-center flex flex-col justify-center">
-              <img src={`./${cityData.weather[0].main}.png`} className="weatherImage max-h-40 object-contain" draggable="false" alt='' />
+              <img src={`/React-WeatherApp/${cityData.weather[0].main}.png`} className="weatherImage max-h-40 object-contain" draggable="false" alt='' />
               <p className="weatherTemperature !font-bold text-white max-sm:text-2xl sm:text-3xl">{cityData.main.temp}</p>
               <p className="weatherDescription !font-bold text-white max-sm:text-lg sm:text-xl">{cityData.weather[0].main}</p>
             </div>
@@ -73,11 +73,11 @@ function App() {
           </div> )}
           {cityData.cod != "200" && (
           <div className="weatherError">
-            <img className='object-contain w-full h-auto' src="./error.png" alt="" />
+            <img className='object-contain w-full h-auto' src="/React-WeatherApp/error.png" alt="" />
           </div>)}
         </div>
         <div className="absolute top-0 left-0 h-full w-full">
-          <img className="h-full w-full object-cover" src="./background.jpeg" alt="" />
+          <img className="h-full w-full object-cover" src="/React-WeatherApp/background.jpeg" alt="" />
         </div>
       </div>
     </div>
