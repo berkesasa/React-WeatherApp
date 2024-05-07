@@ -6,7 +6,6 @@ async function getCityData(city) {
         const data = await response.json();
         return data
     }catch(err){
-        // console.log(err);
         console.log(err)
     }
 }
