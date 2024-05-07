@@ -6,7 +6,6 @@ function App() {
 
   const [city, setCity] = useState("");
   const [cityData, setCityData] = useState([]);
-  console.log(cityData);
 
   const handleFormSubmit = async (event) => {
     event.preventDefault()
