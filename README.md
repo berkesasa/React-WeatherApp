@@ -1,8 +1,8 @@
 
-# React Basic Components
+# React Weather App
 
 
-The technologies used in the project are React and Tailwind CSS.
+This weather application provides real-time weather updates based on location-specific searches. Users can instantly view current weather conditions for any chosen location. The technologies used in the project are React and Tailwind CSS.
 
 
 ## Table of Contents
@@ -49,16 +49,15 @@ npm start
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="/src/screenshots/screenshot-1.png" width="1200"></td>
-    <td align="center"><img src="/src/screenshots/screenshot-2.png" width="1200"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="/src/screenshots/screenshot-3.png" width="1200"></td>
-    <td align="center"><img src="/src/screenshots/screenshot-4.png" width="1200"></td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center;">
+  <img src="/src/screenshots/screenshot-1.png" width="1200" style="margin: 10px;">
+  <img src="/src/screenshots/screenshot-2.png" width="1200" style="margin: 10px;">
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="/src/screenshots/screenshot-3.png" width="1200" style="margin: 10px;">
+  <img src="/src/screenshots/screenshot-4.png" width="1200" style="margin: 10px;">
+</div>
 ## Technologies
 
 This project uses the following technologies:
