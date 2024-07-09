@@ -51,12 +51,12 @@ npm start
 
 <table>
   <tr>
-    <td align="center"><img src="/src/screenshots/screenshot-1.png" width="1200"></td>
-    <td align="center"><img src="/src/screenshots/screenshot-2.png" width="1200"></td>
+    <td style="margin-top: 7px; text-align: center;"><img src="/src/screenshots/screenshot-1.png" width="1200"></td>
+    <td style="margin-top: 7px; text-align: center;"><img src="/src/screenshots/screenshot-2.png" width="1200"></td>
   </tr>
   <tr>
-    <td align="center"><img src="/src/screenshots/screenshot-3.png" width="1200"></td>
-    <td align="center"><img src="/src/screenshots/screenshot-4.png" width="1200"></td>
+    <td style="margin-top: 7px; text-align: center;"><img src="/src/screenshots/screenshot-3.png" width="1200"></td>
+    <td style="margin-top: 7px; text-align: center;"><img src="/src/screenshots/screenshot-4.png" width="1200"></td>
   </tr>
 </table>
 ## Technologies
