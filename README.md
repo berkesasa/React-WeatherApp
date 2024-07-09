@@ -59,6 +59,7 @@ npm start
     <td><img src="/src/screenshots/screenshot-4.png" width="1200"></td>
   </tr>
 </table>
+
 ## Technologies
 
 This project uses the following technologies:
