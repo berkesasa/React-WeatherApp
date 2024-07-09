@@ -49,10 +49,16 @@ npm start
 
 ## Screenshots
 
-![Image 1](/src/screenshots/screenshot-1.png=250x)
-![Image 2](/src/screenshots/screenshot-2.png=250x)
-![Image 3](/src/screenshots/screenshot-3.png=250x)
-![Image 4](/src/screenshots/screenshot-4.png=250x)
+<table>
+  <tr>
+    <td><img src="/src/screenshots/screenshot-1.png" width="1200"></td>
+    <td><img src="/src/screenshots/screenshot-2.png" width="1200"></td>
+  </tr>
+  <tr>
+    <td><img src="/src/screenshots/screenshot-3.png" width="1200"></td>
+    <td><img src="/src/screenshots/screenshot-4.png" width="1200"></td>
+  </tr>
+</table>
 ## Technologies
 
 This project uses the following technologies:
