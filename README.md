@@ -49,11 +49,10 @@ npm start
 
 ## Screenshots
 
-![Image 1](/src/screenshots/screenshot-1.png)
-![Image 2](/src/screenshots/screenshot-2.png)
-![Image 3](/src/screenshots/screenshot-3.png)
-![Image 4](/src/screenshots/screenshot-4.png)
-![Image 5](/src/screenshots/screenshot-5.png)
+![Image 1](/src/screenshots/screenshot-1.png=250x)
+![Image 2](/src/screenshots/screenshot-2.png=250x)
+![Image 3](/src/screenshots/screenshot-3.png=250x)
+![Image 4](/src/screenshots/screenshot-4.png=250x)
 ## Technologies
 
 This project uses the following technologies:
